@@ -7,7 +7,7 @@ Pour cette procédure nous allons utiliser un poste Linux Debian 12 qui nous ser
 Tapper la commande `ip a` nous permet d'afficher les interfaces de notre poste serveur. Relevez le nom de l'interface avec laquelle vous allez accueillir les requêtes DHCP. 
 Nous allons relever l'interface __enp0s3__ pour la suite de l'installation.
 
-![configuration de départ](Réseaux/INSTALLATION-DHCP-LINUX/images/serveru-dhcp-config-(interface).png)
+![configuration de départ](https://github.com/Tr3n4rT/wcs_network_quests/blob/main/INSTALLATION-DHCP-LINUX/images/serveru-dhcp-config-(interface).png)
 
 
 ## Installation
@@ -39,7 +39,7 @@ gateway 172.20.0.1
 Dans ce fichier nous rentrons le mot clé __INTERFACES__ suivi du nom de notre interface __enp0s3__ relevé précédemment : 
 `INTERFACES="enp0s3"`
 
-![configuration interface](Réseaux/INSTALLATION-DHCP-LINUX/images/interface-configuration.png)
+![configuration interface](https://github.com/Tr3n4rT/wcs_network_quests/blob/main/INSTALLATION-DHCP-LINUX/images/interface-configuration.png)
 
 3. Indiquez la configuration distribuée (plages, adresse de réseaux, passerelle...) par le serveur DHCP en éditant le fichier __dhcpd.conf__, avec les paramêtres correspondant à votre configuration :
 `sudo vi /etc/dhcp/dhcpd.conf`
@@ -87,7 +87,7 @@ appliquez la configuration en entrant la commande : `sudo netplan apply`
 
 Si votre serveur DHCP sur votre machine Debian est activé sur le réseau, vous pouvez constater grâce à la commande `ip a` qu'une adresse ip correspondante au réseau configuré précédemment à bien été attribuer à votre ordianateur Ubuntu
 
-![ip-dynamic-ubuntu](Réseaux/INSTALLATION-DHCP-LINUX/images/attrib-dynamic-ubuntu.png)
+![ip-dynamic-ubuntu](https://github.com/Tr3n4rT/wcs_network_quests/blob/main/INSTALLATION-DHCP-LINUX/images/attrib-dynamic-ubuntu.png)
 
 ## Configurer le serveur DHCP pour attribuer une adress ip statique
  
@@ -106,7 +106,7 @@ Redémarrer le service dhcp de votre serveur avec la commande `systemctl restart
 2. Sur votre poste client Ubuntu, redémarez le processus réseau afin d'appliquer la nouvelle configuration grâce à la commande `sudo netplan apply`\
 On peu vérifier que l'adresse désormais attribuer à notre machine Ubuntu est bien celle que nous avons configuré.
 
-![ip-statique-ubuntu](Réseaux/INSTALLATION-DHCP-LINUX/images/ip-static-ubuntu.png)
+![ip-statique-ubuntu](https://github.com/Tr3n4rT/wcs_network_quests/blob/main/INSTALLATION-DHCP-LINUX/images/ip-static-ubuntu.png)
 
 
 
