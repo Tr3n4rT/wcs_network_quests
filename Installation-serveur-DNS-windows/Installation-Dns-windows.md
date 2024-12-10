@@ -68,7 +68,7 @@ Pour verifier les enregistrements effectués sur le serveur :
 ```powershell
 Get-DnsServerResourceRecord -ZoneName "wilder.lan" | Format-Table -AutoSize -Wrap
 ```
-![enregistrement-zone](images/get-dns-serveur-zone.png)
+![enregistrement-zone](https://github.com/Tr3n4rT/wcs_network_quests/blob/main/Installation-serveur-DNS-windows/images/enregitrement-zone-verfi.png)
 
 ## Test 
 
