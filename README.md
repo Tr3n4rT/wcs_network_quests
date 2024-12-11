@@ -8,8 +8,7 @@ Index :
 
 [Installation a DNS Server inside Windows Server Core](https://github.com/Tr3n4rT/wcs_network_quests/blob/main/Installation-serveur-DNS-windows/Installation-Dns-windows.md)
 
-[Installaing an Active Directory on a Windows Server Core](/mnt/data_drive/Cours & Tuto/Informatique/Cours_WCS/Quetes/wcs_network_quests/Installation-AD-DS/Installation-AD-DS.md)
+[Installaing an Active Directory on a Windows Server Core](/Installation-AD-DS/Installation-AD-DS.md)
 
 ## Linux
 [Installing a DHCP Server on Linux system](https://github.com/Tr3n4rT/wcs_network_quests/blob/main/INSTALLATION-DHCP-LINUX/Installation-DHCP-Linux.md)
-/mnt/data_drive/Cours & Tuto/Informatique/Cours_WCS/Quetes/wcs_network_quests/Installation-AD-DS/Installation-AD-DS.md
