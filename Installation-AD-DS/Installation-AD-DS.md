@@ -7,8 +7,7 @@ Install-WindowsFeature Ad-Domain-Services
 ```
 ![installation-ad](images/install-ad-service.png)
 
-2. Installer les modules de gestion pour le service Active Directory
-commande :
+2. Installer les modules de gestion pour le service Active Directory avec la commande :
 ```powershell
 Install-WindowsFeature -name AD-Domain-Services -IncludeManagementTools
 ```
