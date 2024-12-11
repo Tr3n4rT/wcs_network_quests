@@ -1,4 +1,4 @@
-# Installation d'un serveur DNS avec Windows Server Core avec PowerShell
+# Installation d'un serveur DNS sur Windows Server Core avec PowerShell
 
 ## Installation du Service DNS
 Pour installer un serveur DNS sur un serveur windows Core, ouvrir une console PowerShell et executer la commande :
@@ -68,7 +68,7 @@ Pour verifier les enregistrements effectués sur le serveur :
 ```powershell
 Get-DnsServerResourceRecord -ZoneName "wilder.lan" | Format-Table -AutoSize -Wrap
 ```
-![enregistrement-zone](images/get-dns-serveur-zone.png)
+![enregistrement-zone](https://github.com/Tr3n4rT/wcs_network_quests/blob/main/Installation-serveur-DNS-windows/images/enregitrement-zone-verfi.png)
 
 ## Test 
 
